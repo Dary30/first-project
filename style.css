@@ -1,11 +1,13 @@
 body {
-    margin: 0 100px;
+    /* margin: 0 100px; */
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 100px;
+    background-color: white;
 }
 
 ul {
@@ -16,5 +18,33 @@ ul {
 
 a {
     text-decoration: none;
-    color: grey;
+    color: red;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 100px;
+    background-color: rgb(30, 30, 30);
+    gap: 16px;
+}
+
+.main-title {
+    font-size: 32px;
+    color: white;
+    margin: 0;
+}
+
+.section-one-text {
+    margin: 16px 0;
+    color: white;
+}
+
+.section-one-button {
+    padding: 4px 16px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
 }
