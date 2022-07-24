@@ -14,7 +14,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 a {
@@ -29,6 +29,7 @@ a {
     padding: 70px 100px;
     background-color: rgb(30, 30, 30);
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .main-title {
@@ -40,6 +41,7 @@ a {
 .section-one-text {
     margin: 16px 0;
     color: white;
+    max-width: 600px;
 }
 
 .section-one-button {
@@ -48,6 +50,7 @@ a {
     background-color: red;
     border: none;
     border-radius: 4px;
+    margin-bottom: 48px;
 }
 
 .section-two {
