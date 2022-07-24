@@ -25,10 +25,10 @@ a {
 .section-one {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 70px 100px;
     background-color: rgb(30, 30, 30);
-    gap: 16px;
+    gap: 70px;
     flex-wrap: wrap;
 }
 
@@ -50,7 +50,6 @@ a {
     background-color: red;
     border: none;
     border-radius: 4px;
-    margin-bottom: 48px;
 }
 
 .section-two {
