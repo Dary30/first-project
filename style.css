@@ -7,8 +7,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 5%;
     background-color: white;
+}
+
+.logo {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
 }
 
 ul {
@@ -26,7 +32,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 70px 100px;
+    padding: 70px 10%;
     background-color: rgb(30, 30, 30);
     gap: 70px;
     flex-wrap: wrap;
@@ -36,6 +42,14 @@ a {
     font-size: 32px;
     color: white;
     margin: 0;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 4px;
 }
 
 .section-one-text {
@@ -54,7 +68,7 @@ a {
 
 .section-two {
     text-align: center;
-    padding: 70px 100px;
+    padding: 70px 10%;
 }
 
 .card-container {
@@ -76,6 +90,8 @@ a {
 .third-win,
 .fourth-win,
 .fifth-win {
+    width: 150px;
+    height: 150px;
     border: 3px solid rgb(30, 30, 30);
     border-radius: 4px;
 }
@@ -86,7 +102,7 @@ a {
 }
 
 .section-three {
-    padding: 70px 100px;
+    padding: 7% 10%;
     background-color: red;
 }
 
@@ -107,10 +123,11 @@ a {
     text-align: right;
     font-size: 18px;
     font-weight: 700;
+    padding-top: 15px;
 }
 
 .section-four {
-    padding: 70px 100px;
+    padding: 7% 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,7 +138,7 @@ a {
     background-color: rgb(30, 30, 30);
     border-radius: 4px;
     width: 500px;
-    padding: 16px 80px;
+    padding: 16px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,7 +155,8 @@ a {
 }
 
 .section-four-button {
-    padding: 4px 16px;
+    width: 90px;
+    padding: 4% 16px;
     color: white;
     background-color: rgb(30, 30, 30);
     border: 2px solid red;
